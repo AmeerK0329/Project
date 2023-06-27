@@ -17,6 +17,7 @@ header h3 {
 }
 
 .hamburger{
+    visibility: hidden;
     text-align: center;
 }
 
