@@ -12,7 +12,7 @@ function isMobile() {
     for (var i = 0; i < paragraphs.length; i++) {
       let p = paragraphs[i];
       p.style.fontSize = '15px';
-      boxes[i].style.height = '1000px';
+      boxes[i].style.height = '500px';
     }
   }
 
