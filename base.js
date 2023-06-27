@@ -5,6 +5,7 @@ function isMobile() {
 }
 
 if (isMobile()) {
+    hamburger.style.visibility = 'visible';
     navbar.style.position = "absolute";
     navbar.style.top = "0";
     navbar.style.left = "0";
@@ -35,4 +36,7 @@ if (isMobile()) {
             document.body.style.overflow = 'auto';
         }
     });
+}
+else{
+    hamburger.style.visibility = 'hidden';
 }
