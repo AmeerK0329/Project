@@ -16,6 +16,16 @@ header h3 {
     margin: 0;
 }
 
+.hamburger{
+    text-align: center;
+}
+
+.hamburger:hover{
+    background-color: skyblue;
+    color: black;
+}
+
+
 main {
     display: flex;
     flex-direction: column;
@@ -100,13 +110,4 @@ body::-webkit-scrollbar-thumb:hover {
 
 body::-webkit-scrollbar-thumb:active {
     background-color: #4b8dbd;
-}
-
-/* Responsive Styles */
-@media only screen and (max-width: 600px) {
-    .sculpture img {
-        max-width: 40%;
-        object-fit: contain;
-        height: auto;
-    }
 }
